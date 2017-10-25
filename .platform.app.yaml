@@ -40,15 +40,14 @@ mounts:
 
 # The size of the persistent disk of the application (in MB).
 disk: 2048
-
-# The hooks executed at various points in the lifecycle of the application.
+    # The hooks executed at various points in the lifecycle of the application.
 hooks:
     # The build hook runs before the application is deployed, and is useful for
     # assembling the codebase.
     build: |
         gem install bundler
-        bundle install --jobs 6 --without development test
-        RACK_ENV=production bundle exec rake assets:precompile
+        gem install rake
+        bundle install --without development test rmagick
     # We run deploy hook after your application has been deployed and started.
     deploy: |
         RACK_ENV=production bundle exec rake db:migrate

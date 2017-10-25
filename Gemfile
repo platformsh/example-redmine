@@ -101,4 +101,9 @@ end
 Dir.glob File.expand_path("../plugins/*/{Gemfile,PluginGemfile}", __FILE__) do |file|
   eval_gemfile file
 end
+
+#Add platform.sh gem to inject configuration
 gem 'platform_sh_rails', '0.1.5'
+
+#Add unicorn as app server
+gem 'unicorn'
