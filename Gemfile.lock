@@ -95,7 +95,7 @@ GEM
       activerecord-nulldb-adapter
       platform_sh (= 0.2.7)
     public_suffix (3.0.0)
-    puma (3.10.0)
+    puma (3.11.0)
     rack (2.0.3)
     rack-openid (1.4.2)
       rack (>= 1.1.0)
@@ -186,7 +186,7 @@ DEPENDENCIES
   net-ldap (~> 0.16.0)
   nokogiri (~> 1.8.0)
   platform_sh_rails (= 0.1.7)
-  puma (~> 3.7)
+  puma (~> 3.11)
   rack-openid
   rails (= 5.1.4)
   rails-dom-testing
