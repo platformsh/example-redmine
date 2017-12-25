@@ -147,7 +147,7 @@ GEM
     selenium-webdriver (3.6.0)
       childprocess (~> 0.5)
       rubyzip (~> 1.0)
-    simplecov (0.14.1)
+    simplecov (0.15.1)
       docile (~> 1.1.0)
       json (>= 1.8, < 3)
       simplecov-html (~> 0.10.0)
@@ -201,7 +201,7 @@ DEPENDENCIES
   roadie-rails (~> 1.2.1)
   ruby-openid (~> 2.3.0)
   selenium-webdriver
-  simplecov (~> 0.14.1)
+  simplecov (~> 0.15.1)
   tzinfo-data
   unicorn
   yard
