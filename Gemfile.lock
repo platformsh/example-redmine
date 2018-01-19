@@ -96,7 +96,7 @@ GEM
       activerecord-nulldb-adapter
       platform_sh (= 0.2.7)
     public_suffix (3.0.0)
-    puma (3.11.0)
+    puma (3.11.1)
     rack (2.0.3)
     rack-openid (1.4.2)
       rack (>= 1.1.0)
