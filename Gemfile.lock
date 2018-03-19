@@ -132,7 +132,7 @@ GEM
       htmlentities
       rbpdf-font (~> 1.19.0)
     rbpdf-font (1.19.1)
-    rdoc (6.0.0)
+    rdoc (6.0.2)
     redcarpet (3.4.0)
     request_store (1.0.5)
     rmagick (2.16.0)
