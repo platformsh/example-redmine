@@ -6,7 +6,7 @@ end
 
 gem "rails", "5.1.4"
 gem "coderay", "~> 1.1.1"
-gem "request_store", "1.0.5"
+gem "request_store", "1.4.1"
 gem "mime-types", "~> 3.0"
 gem "actionpack-xml_parser"
 gem "roadie-rails", "~> 1.2.1"
