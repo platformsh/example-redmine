@@ -10,7 +10,7 @@ gem "request_store", "1.0.5"
 gem "mime-types", "~> 3.0"
 gem "actionpack-xml_parser"
 gem "roadie-rails", "~> 1.2.1"
-gem "roadie", "~> 3.2.1"
+gem "roadie", "~> 3.3.0"
 gem "mimemagic"
 
 gem "nokogiri", "~> 1.8.0"
