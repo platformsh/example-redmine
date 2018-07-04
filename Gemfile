@@ -13,7 +13,7 @@ gem "roadie-rails", "~> 1.2.1"
 gem "roadie", "~> 3.2.1"
 gem "mimemagic"
 
-gem "nokogiri", "~> 1.8.0"
+gem "nokogiri", "~> 1.8.4"
 gem "i18n", "~> 0.9.1"
 
 # Request at least rails-html-sanitizer 1.0.3 because of security advisories
